@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <title>Appointment Form</title>
+</head>
+<body>
+    <div id="container_demo" style="margin:50px 0px 0px 480px">
+        <a class="hiddenanchor" id="toregister"></a>
+        <a class="hiddenanchor" id="tologin"></a>
+    <div id="wrapper">
+        <div id="register" class="form" alt="popup">
+            <form  action="/submit" method="POST" style="width: 80%; padding: 12px 20px; margin: 8px 0;
+            display: inline-block; background: white" autocomplete="on"> 
+               <h1> -- Appointment -- </h1> 
+                <p> 
+                    <label for="nam" class="nam" data-icon="u">Name</label>
+                    <input id="name" name="name" class="form-control" style="width:300px" required="required" type="text" placeholder="myusername690" />
+                </p>
+                <p> 
+                    <label for="emai" class="emai" data-icon="e" > Email</label>
+                    <input id="email" name="email" class="form-control" style="width:300px" required="required" type="email" placeholder="mymail@mail.com"/> 
+                </p>
+                <p> 
+                    <label for="phone" class="phone" data-icon="p">Phone No. </label>
+                    <input id="phone_no" name="phone_no" class="form-control" style="width:300px" required="required" type="phone number" placeholder="eg. 8523xxxxxx"/>
+                </p>
+                <p> 
+                    <label for="dat" class="dat" data-icon="p">Date </label>
+                    <input type="date" id="date" name="date" placeholder="date of appointment" class="form-control" style="width:300px" required/>
+        
+                </p>
+                <p class="submit_button"> 
+                    <input type="submit" class="btn btn-primary" value="Submit"/> 
+                </p>
+            </form>
+        </div></div></div>
+</body>
+</html>
